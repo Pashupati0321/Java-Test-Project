@@ -1,0 +1,14 @@
+.footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+a{
+    text-decoration: none;
+    margin: 0 10px;
+    color: blue;
+}
+
+a:hover {
+    text-decoration: underline;
+}

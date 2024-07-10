@@ -1,0 +1,15 @@
+.user-card {
+    border: 1px solid red;
+    padding: 15px;
+    margin: 15px 15px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.user-card h2:hover {
+    color: green;
+}
+.user-card p:hover{
+    color:blue;
+}

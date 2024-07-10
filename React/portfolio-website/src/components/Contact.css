@@ -1,0 +1,74 @@
+#contact {
+  padding: 100px 20px;
+  text-align: center;
+  background: linear-gradient(180deg, #f1f1f1, #e0f7fa);
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+#contact h2 {
+  margin-bottom: 20px;
+  font-size: 2.5em;
+  color: #333;
+  position: relative;
+  animation: slideIn 1s ease-in-out;
+}
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+  animation: fadeIn 2s ease-in-out;
+}
+
+label {
+  display: block;
+  margin: 10px 0 5px;
+  color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+  border-color: #ff6347;
+  box-shadow: 0 0 8px rgba(255, 99, 71, 0.2);
+}
+
+button {
+  padding: 10px 20px;
+  background: linear-gradient(135deg, #ff6347, #ff4757);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: linear-gradient(135deg, #ff4757, #ff6347);
+}
+
+.error {
+  color: red;
+  font-size: 0.9em;
+}
+
+@media (max-width: 768px) {
+  #contact {
+    padding: 80px 10px 40px;
+  }
+
+  #contact h2 {
+    font-size: 2em;
+  }
+}
